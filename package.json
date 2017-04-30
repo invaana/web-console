@@ -1,0 +1,67 @@
+{
+    "name": "web-console",
+    "description": "Web-Console is a terminal server that provides remote CLI
+    via standard web browser and HTTP protocol.",
+    "version": "0.7.0",
+    "author": "Ravi Raja Merugu <rrmerugu@gmail.com>",
+    "contributors": [
+        {
+            "name": "Ravi Raja Merugu",
+            "email": "rrmerugu@gmail.com"
+        }
+    ],
+    "config": {
+        "port": "8088",
+        "root": "/console",
+        "requireSSL": "false",
+        "key": "",
+        "cert": "",
+        "pfx": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/invaana/web-console.git"
+    },
+    "main": "index",
+    "preferGlobal": "false",
+    "dependencies": {
+        "send": "*",
+        "connect": "*",
+        "socket.io": "*",
+        "commander": "*",
+        "lodash": "*"
+    },
+    "devDependencies": {
+        "nodeunit": "*"
+    },
+    "optionalDependencies": {
+        "authenticate-pam": "*",
+        "uid-number": "*"
+    },
+    "keywords": [
+        "command",
+        "shell",
+        "command-line",
+        "text",
+        "terminal",
+        "browser",
+        "web",
+        "node",
+        "TTY",
+        "JavaScript",
+        "REPL"
+    ],
+    "preferGlobal": "false",
+    "bin": {
+        "web-terminal": "./bin/run.js"
+    },
+    "scripts": {
+        "start": "node ./bin/run.js",
+        "test": "node test"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/invaana/web-console/blob/master/LICENSE"
+    },
+    "engines": { "node": ">=0.10" }
+}
