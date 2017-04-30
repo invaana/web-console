@@ -29,12 +29,21 @@ Node.js v0.10 or newer.
     console.log("Web-terminal accessible at http://127.0.0.1:1337/console");
 
 ```
+
+
+```javascript
+
+
+
+```
+
+
 Start the above application, then open your favorite browser and navigate to: http://localhost:8088/console
 
 
 ## Credits
 
-This project is forked and inspired from https://github.com/rabchev/web-terminal 
+This project is forked and inspired from https://github.com/rabchev/web-terminal
 
 ## License
 

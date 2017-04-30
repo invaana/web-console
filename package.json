@@ -1,7 +1,6 @@
 {
     "name": "web-console",
-    "description": "Web-Console is a terminal server that provides remote CLI
-    via standard web browser and HTTP protocol.",
+    "description": "Web-Console is a terminal server that provides remote CLI via standard web browser and HTTP protocol.",
     "version": "0.7.0",
     "author": "Ravi Raja Merugu <rrmerugu@gmail.com>",
     "contributors": [
