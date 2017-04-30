@@ -6,6 +6,9 @@ on native modules. Fast and easy to install. Supports multiple sessions.
 
 NOTE: It is not a TTY emulator.
 
+![Web Console](docs/console.png)
+
+
 ## Prerequisites
 Node.js v0.10 or newer.
 
