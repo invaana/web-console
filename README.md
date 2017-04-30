@@ -13,35 +13,10 @@ NOTE: It is not a TTY emulator.
 Node.js v0.10 or newer.
 
 
-## Usage Examples
+## Usage
 
-```javascript
-
-    var http        = require("http"),
-        terminal    = require("web-console");
-
-    var app = http.createServer(function (req, res) {
-        res.writeHead(200, {"Content-Type": "text/plain"});
-        res.end("Hello World\n");
-    });
-
-    app.listen(1337);
-    console.log("Server running at http://127.0.0.1:1337/");
-
-    terminal(app);
-    console.log("Web-terminal accessible at http://127.0.0.1:1337/console");
-
-```
-
-
-```javascript
-
-
-
-```
-
-
-Start the above application, then open your favorite browser and navigate to: http://localhost:8088/console
+To start the server `node bin/run.js`. You can access the web console at
+http://localhost:8088/terminal in browser.
 
 
 ## Credits
